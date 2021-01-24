@@ -1,0 +1,145 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/simulation/modelsim
+vcombinedBehavioral
+Z1 !s110 1549041459
+!i10b 1
+!s100 a1EDV5j]BSee@^BXBDOLb3
+ILd30KDGd[hMXH028_;0Pj3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1548979088
+8C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/combinedBehavioral.v
+FC:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/combinedBehavioral.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1549041459.000000
+!s107 C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/combinedBehavioral.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1|C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/combinedBehavioral.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1
+Z7 tCvgOpt 0
+ncombined@behavioral
+vdiff
+Z8 !s110 1549041458
+!i10b 1
+!s100 6YmKlP25Y:]XdZaockCBR2
+IOF;bNlRT26jbPVkWfoK;Q0
+R2
+R0
+w1548976281
+8C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/diff.v
+FC:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/diff.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1549041458.000000
+!s107 C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/diff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1|C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/diff.v|
+!i113 1
+R5
+R6
+R7
+verror
+R1
+!i10b 1
+!s100 TM[HHYDP4ncBD9]3RSBmH2
+IUbVhNW:Uk7AhShZZ>?T0F0
+R2
+R0
+w1548986027
+8C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/error.v
+FC:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/error.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/error.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1|C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/error.v|
+!i113 1
+R5
+R6
+R7
+vSum_str
+R8
+!i10b 1
+!s100 @;C^a:dLJYgPQ3iWCkBe92
+I8jan`MYCbWA:Aaf`>1CZ@1
+R2
+R0
+w1548986005
+8C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/Sum_str.v
+FC:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/Sum_str.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/Sum_str.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1|C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/Sum_str.v|
+!i113 1
+R5
+R6
+R7
+n@sum_str
+vtestBench
+R1
+!i10b 1
+!s100 Oa<d9^m3lZHbP_:N0f2ge3
+I_I;hE1k6ikAfYLgNWU6893
+R2
+R0
+w1548984046
+8C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/testBench.v
+FC:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/testBench.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/testBench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1|C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/testBench.v|
+!i113 1
+R5
+R6
+R7
+ntest@bench
+vtwo_bit_computer
+R1
+!i10b 1
+!s100 UV96TWD74RJznEaz2GG2^1
+I;Ai;m=_NIYH_?_VSD`bGA3
+R2
+R0
+w1548979360
+8C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/two_bit_computer.v
+FC:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/two_bit_computer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/two_bit_computer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1|C:/Users/Ryan/Documents/Personal/spring2019/3700/3700_labs/lab_1/two_bit_computer.v|
+!i113 1
+R5
+R6
+R7

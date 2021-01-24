@@ -1,0 +1,16 @@
+module two-bit(a1,a0,b1,b0,i1,i0,f0,f1,error)
+	input a0,a1,b0,b1,i0,i1;
+	output f0,f1,error;
+	wire sum0,sum1,diff1,diff0,overflow_sum,underflow_diff;
+	
+	Sum-str u0(.A1(a1),.A0(a0),.B1(b1),.B0(b0),.Sum1(sum1),.Sum0(sum0));
+	
+	diff u1(.A1(a1),.A0(a0),.B1(b1),.B0(b0),.diff1(diff1),.diff0(diff0));
+	
+	error u2(.A1(a1),.A0(a0),.B1(b1),.B0(b0),.overflow_sum(overflow_sum),.underflow_diff(underflow_diff));
+	
+	combinedBehavioral u3(.i0(i0),.i1(i1),.a0(a0),.a1(a1),.b0(b0),.b1(b1),.sum0(sum0),.sum1(sum1),.diff0(diff0),
+		.diff1(diff1),.overflow_sum(overflow_sum),.underflow_diff(underflow_diff),
+		.f0(f0),.f1(f1),.error(error));
+		
+endmodule;

@@ -1,0 +1,7 @@
+module errorb(i0,i1,overflow_sum,underflow_diff,error)
+	input i0,i1,overflow_sum,underflow_diff;
+	output error;
+	
+	assign error = (i1 & !i0 & overflow_sum)|(i1 & i0 & underflow_diff);
+	
+endmodule
