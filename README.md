@@ -15,11 +15,11 @@ I designed a circuit that implements the below functions and downloaded the circ
 ```
 •When I[1 : 0] = (i1, i0) = (0,0), the output F[1 : 0] is a bit-wise complement of A[1 : 0] (i.e., f0=a0 and f1=a1).
 
-•WhenI[1 : 0] = (i1, i0) = (0,1), the output F[1 : 0] is a bit-wise AND of the inputs (i.e., f1=a1·b1; f0=a0·b0).
+•When I[1 : 0] = (i1, i0) = (0,1), the output F[1 : 0] is a bit-wise AND of the inputs (i.e., f1=a1·b1; f0=a0·b0).
 
-•WhenI[1 : 0] = (i1, i0) = (1,0), the output F[1 : 0] is the sum of A and B.
+•When I[1 : 0] = (i1, i0) = (1,0), the output F[1 : 0] is the sum of A and B.
 
-•WhenI[1 : 0] = (i1, i0) = (1,1), the output F[1 : 0] is the difference of A from B.
+•When I[1 : 0] = (i1, i0) = (1,1), the output F[1 : 0] is the difference of A from B.
 
 ```
 
